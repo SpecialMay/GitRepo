@@ -1,0 +1,114 @@
+Title         : Welcome
+Author        : You
+Logo          : True
+
+[TITLE]
+
+# Madoko 
+
+Madoko is a fast markdown processor for writing professional articles
+with a focus on simplicity and plain text readability.
+
+* Read the [reference manual].
+* Explore the upper-right toolbox menu to discover how Markdown works. 
+* `Alt-Q` reformats the current paragraph.
+# M
+H~2~0\
+E\ = M\C^
+### A name heading #{myheading}
+markdown [link]{#myheading}
+
+## this is h2 ##
+#this is h1#
+* this is empsis
+> this is  a quotes\
+> \\this is 换行
+> this is the first level of quoting 
+>
+>>this is nested bolockquote
+>
+>back to the first blockquot
+
+>## this is a header
+>1. this is the first item 
+>2. this is the seconde list item
+>
+>here is some example code:
+>
+>
+>return shell_exec("echo$input | $markdown_script");
+
+* 第一个
+  - 爹通过
+    - 适当
+      + 四
+* this is a list:
+  > this is a block quot
+  > this is a list item 
+  
+  < code goes here >
+    
+
+<p>here is an example of c++:\
+  这是一段话\
+  </p>
+    this is a code bolock
+  
+fdjf 
+  
+  
+    this is a cod ebloc
+    
+ 
+This is [an example][id] reference-style link.
+[id]: http://example.com/  "Optional Title Here"
+** single asterisks**
+* single asterisks *
+__ single unders__
+
+1.  This is a list item with two paragraphs. Lorem ipsum dolor
+    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+    mi posuere lectus\
+    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+    sit amet velit
+      
+2. magic 
+
+
+'this is code'
+
+    this is code
+    
+    this is code
+    
+    
+<http://example.com/>
+
+
+### escape sequences
+Would you like c:\foo\bar to be deleted? yes\no
+Here are some other escape：\\,\#,\| and \0.
+
+my\/_example_\/here
+~ Equation
+e = \lim_{n\to\infty} \left(1+ \frac{1}{n} \right)^n
+
+~
+
+Table [#tab-sample] show an example table figure.
+~ TableFigure{#tab-sample;\
+  caption: "modelle mit unterschiedlich gescha tz";}
+|$c(t)$                   ||||
+|     | (A0) |(A1) |(A2)     |
+|     | ohne |log  | polynom |
+|     |      |     |         |
+|-   |------|-----|---------|
+| log |1     | fsd | fdf     |
+| 2   | 2    | df  | fd      |
+| 3   | f3   | fd  | dff     |
+| 4   | 4    | fd  | dfd     |
+| 5   | 5    | df  | dfd     |
+|---|---|---|---|
+{.booktable}
+~
